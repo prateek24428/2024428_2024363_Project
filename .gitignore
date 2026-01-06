@@ -1,0 +1,19 @@
+# Large video files
+*.mp4
+ERP_Video.mp4
+
+# Backup files
+backups/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+bin/
+*.class
