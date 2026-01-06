@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+        "type": "java",
+        "name": "Main",
+        "request": "launch",
+        "mainClass": "edu.univ.erp.Main",
+        "projectName": "ERP_74fde0a3"
+    },
+    {
+        "type": "java",
+        "name": "Launch Main (AP-Project from ERP workspace)",
+        "request": "launch",
+        "mainClass": "edu.univ.erp.Main",
+        "projectName": "AP-Project",
+        "cwd": "${workspaceFolder}/AP-Project",
+        "console": "integratedTerminal",
+        "classPaths": [
+            "${workspaceFolder}/AP-Project/bin",
+            "${workspaceFolder}/AP-Project/lib/*",
+            "${workspaceFolder}/AP-Project/bin/lib/*"
+        ]
+    }
+]
+}

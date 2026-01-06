@@ -1,0 +1,9 @@
+{
+  "java.project.referencedLibraries": [
+    "${workspaceFolder}/AP-Project/lib/**/*.jar"
+  ],
+  "java.project.outputPath": "${workspaceFolder}/AP-Project/bin",
+  "java.project.sourcePaths": [
+    "AP-Project/src/edu/univ/erp"
+  ]
+}
